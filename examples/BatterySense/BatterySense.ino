@@ -17,7 +17,7 @@ void loop() {
   unsigned long m = millis();
   if(m - secondsTimer > 1000L){
     secondsTimer = m;
-    mppt.ping();  // send oing every second
+    mppt.ping();  // sending ping every second
   }
 }
 
